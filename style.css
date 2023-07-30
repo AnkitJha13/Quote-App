@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background: linear-gradient(135deg, #F8A9A7, #FFC857);
+    animation: changeBg 10s linear infinite, gradientBg 15s ease alternate infinite;
+}
+
+@keyframes changeBg {
+    0% {
+        background-color: #F8A9A7;
+    }
+    25% {
+        background-color: #FFC857;
+    }
+    50% {
+        background-color: #8EDCE6;
+    }
+    75% {
+        background-color: #F78B6C;
+    }
+    100% {
+        background-color: #F8A9A7;
+    }
+}
+
+/* Additional background animation for a more interesting effect */
+@keyframes gradientBg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .quote-box {
+        width: 90%;
+    }
+
+    .quote-box h2 {
+        font-size: 28px;
+    }
+
+    .quote-box blockquote {
+        font-size: 22px;
+    }
+}
+
+/* Quote box styles */
+.quote-box {
+    background: #fff;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 10px 20px 0px rgba(23, 124, 229, 0.5);
+    animation: fadeInUp 0.8s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate(-50%, -60%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}
+
+.quote-box h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+    color: #1E293B;
+}
+
+.quote-box h2::after {
+    content: ' ';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quote-box blockquote {
+    font-size: 26px;
+    min-height: 110px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 0.8s ease-in-out forwards, slideInRight 0.6s ease-in-out 0.4s forwards;
+    color: #333;
+}
+
+.quote-box blockquote::before,
+.quote-box blockquote::after {
+    content: '"';
+}
+
+.quote-box span {
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+    opacity: 0;
+    transform: translateX(30px);
+    animation: fadeInUp 0.6s ease-in-out forwards, slideInRight 0.6s ease-in-out 0.2s forwards;
+    color: #1E293B;
+}
+
+.quote-box span::before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+
+.quote-box div {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Button styles */
+button {
+    background: linear-gradient(90deg, rgb(23, 124, 229), rgb(76, 66, 173));
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(23, 124, 229);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(90deg, rgb(76, 66, 173), rgb(23, 124, 229));
+    transform: scale(1.05);
+}
+
+img {
+    width: 27px;
+    margin-right: 10px;
+}
+
+button:nth-child(2) {
+    background: transparent;
+    color: #1E293B;
+}
+
+/* Additional animation */
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
