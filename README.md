@@ -3,7 +3,7 @@
 The Random Quote Generator is a simple web application that displays random quotes to provide you with inspiration, motivation, or just a moment of reflection.
 
 ## Website Link
-You can access the Random Quote Generator by following this link : [Random Quote Generator](https://ankitjha13.github.io/Quote-App/):
+You can access the Random Quote Generator by following this link : [Random Quote Generator](https://ankitjha13.github.io/Quote-App/)
 
 
 ## How It Works
