@@ -3,7 +3,8 @@
 The Random Quote Generator is a simple web application that displays random quotes to provide you with inspiration, motivation, or just a moment of reflection.
 
 ## Website Link
-You can access the Random Quote Generator by following this link: Random Quote Generator
+You can access the Random Quote Generator by following this link:[Random Quote Generator](https://ankitjha13.github.io/Quote-App/):
+
 
 ## How It Works
 When you open the web application, a random quote will be displayed on the screen.
@@ -13,7 +14,7 @@ Preview
 Random Quote Generator Preview
 
 ## Customization
-You can easily customize the appearance and behavior of the [Random Quote Generator](https://ankitjha13.github.io/Quote-App/):
+You can easily customize the appearance and behavior of the Random Quote Generator.
 
 - To change the styling, modify the CSS file (styles.css) as per your requirements.
 - If you want to use a different set of quotes, open the script.js file and update the quotes array with your desired quotes. Each quote should be an object with a quote property containing the quote text and an optional author property for the quote's author.
