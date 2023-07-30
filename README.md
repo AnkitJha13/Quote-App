@@ -20,6 +20,11 @@ You can easily customize the appearance and behavior of the [Random Quote Genera
 Contribution
 - If you find any issues or have ideas for improvements, feel free to contribute! Here's how:
 
+# Technologies Used
+- HTML
+- CSS
+- JavaScript
+
 # Contact
 If you have any questions or feedback, you can reach me at ankitjha1403@gmail.com.
 
