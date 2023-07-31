@@ -35,6 +35,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 - Submit a pull request explaining your changes.
 
 ## Contact
-If you have any questions or feedback, you can reach me at ankitjha1403@gmail.com.
+If you have any questions or feedback, you can reach me at ankitjha1403@gmail.com .
 
 Thank you for using the Random Quote Generator! 
