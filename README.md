@@ -5,6 +5,12 @@ The Random Quote Generator is a simple web application that displays random quot
 ## Website Link
 You can access the Random Quote Generator by following this link : [Random Quote Generator](https://ankitjha13.github.io/Quote-App/)
 
+## ScreenShot
+![1](https://github.com/AnkitJha13/Quote-App/assets/116744896/2649e190-685d-4d7f-92ae-f4fc088b9f79)
+![2](https://github.com/AnkitJha13/Quote-App/assets/116744896/7154d2b2-6f9b-4f80-b8f3-0b4c82528343)
+![3](https://github.com/AnkitJha13/Quote-App/assets/116744896/3ea80922-620e-4587-a9da-6f1ead3e8e70)
+
+
 
 ## How It Works
 When you open the web application, a random quote will be displayed on the screen.
