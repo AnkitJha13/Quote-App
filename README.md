@@ -12,6 +12,7 @@ You can access the Random Quote Generator by following this link : [Random Quote
 
 
 
+
 ## How It Works
 When you open the web application, a random quote will be displayed on the screen.
 Click the "New Quote" button to fetch and display another random quote.
@@ -27,10 +28,12 @@ You can easily customize the appearance and behavior of the Random Quote Generat
 Contribution
 - If you find any issues or have ideas for improvements, feel free to contribute! Here's how:
 
+
 ## Technologies Used
 - HTML
 - CSS
 - JavaScript
+
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
@@ -39,6 +42,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 - Create a new branch for your feature or bug fix.
 - Make your changes and test thoroughly.
 - Submit a pull request explaining your changes.
+
 
 ## Contact
 If you have any questions or feedback, you can reach me at ankitjha1403@gmail.com .
